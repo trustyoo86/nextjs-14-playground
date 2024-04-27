@@ -21,9 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div>{children}</div>
-        {/* <ModalWrapper> */}
-        {/* <div>{modal}</div> */}
-        {/* </ModalWrapper> */}
+        <ModalWrapper>
+          <div>{modal}</div>
+        </ModalWrapper>
       </body>
     </html>
   );
