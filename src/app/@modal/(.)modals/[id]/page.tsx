@@ -30,7 +30,7 @@ function Modal(props: { params: { id: string } }) {
           }
         </div>
         <div className={styles.footer}>
-          <button className={styles.button} onClick={() => router.push(`/modals/${id + 1}`)}>
+          <button className={styles.button} onClick={() => router.push(`/full/test`)}>
             확인
           </button>
           <button className={styles.button} onClick={() => router.back()}>
